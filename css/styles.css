@@ -1,0 +1,236 @@
+body {
+    font-family: montserratBlack;
+    text-align: center;
+}
+
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: montserratBold;
+}
+
+
+
+
+
+
+a{
+    font-family: ubuntuFont;
+    font-size: 1rem;
+}
+
+p{
+    color: #8f8f8f;
+    font-family: ubuntuLight;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    
+}
+
+.big-heading{
+    font-family: montserratBlack;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/*  NAVBAR SECTION */
+
+
+.navbar-brand{
+    font-family: ubuntuFont;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: montserratBlack;
+}
+
+/*   Buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* TITLE SECTION */
+#title{
+    background-color: #ff4c68;
+    color: #fff; 
+    text-align: left;
+}
+
+
+.title-image{
+    width: 60;
+    transform: rotate(25deg);
+}
+
+
+
+
+/* FEATURES SECTION */
+
+#features{
+    padding: 7% 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+   
+
+
+
+}
+
+
+.feature-title{
+    font-size: 2rem;
+    line-height: 2rem;
+    
+}
+
+
+
+/* TESTIMONIALS SECTION */
+
+.testimonials-block{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonials-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* PRESS SECTION */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+
+
+/* PRICING SECTION  */
+#pricing{
+    padding: 100px;
+
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-title{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+
+/* CTA SECTION */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 180px;
+    font-family:montserratBlack ;
+}
+
+.cta-text{
+    color: #fff;
+}
+
+
+#footer{
+    padding: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+@media (max-width: 1000px ){
+
+    #title{
+        text-align: center;
+    }
+    
+    .title-image{
+        position: static;
+        transform: rotate(0);    
+    }
+}
+
+
+
+/*ADDING FONTS*/
+
+@font-face {
+    font-family: montserratBlack;
+    src: url(/font/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: ubuntuFont;
+    src: url(/font/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: montserratBold;
+    src: url(/font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: ubuntuLight;
+    src: url(/font/Ubuntu/Ubuntu-Light.ttf);
+}
+
